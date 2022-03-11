@@ -1,14 +1,11 @@
-#include <stdlib.h>
+#include <stdio.h>
+#include <stlib.h>
 #include <time.h>
-/* more headers go there */
-
-/* betty style doc for function main goes there */
-int main(void)
+int main()
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	return (0);
+int rand_num;
+srand(time(0));
+printf("The randomly generated number is");
+rand_num = rand();
+printf("%d\n", rand_num);
 }
