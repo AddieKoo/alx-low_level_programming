@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * main - Main function
- * Description: program to print alphabet in lowercase
+ * Description: program to print alphabet in lowercase except e and q
  * Return: prints the alphabet
  */
 int main(void)
