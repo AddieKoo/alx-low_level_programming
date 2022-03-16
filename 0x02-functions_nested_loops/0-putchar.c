@@ -3,7 +3,7 @@
 /**
  * main - entry block
  * @void: no argument
- * Return: 0 
+ * Return:0
  */
 int main(void)
 {
@@ -12,9 +12,9 @@ int main(void)
 	int c;
 
 	for (c = 0; c < 8; c++)
-	{
+{
 		_putchar(ermias[c]);
-	}	
-	_putchar('\n');
-	return (0);
+}
+_putchar('\n');
+return (0);
 }
