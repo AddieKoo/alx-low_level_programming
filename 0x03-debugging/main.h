@@ -11,12 +11,12 @@ void positive_or_negative(int i);
 	}
 	else if( i == 0)
 	{
-		printf("i is zero\n");
+		printf("%d is zero\n", i);
 	}
 	else
 	{
 		printf("i is positive\n");
 	}
 }
-#endif
+#endif /* MAIN_H */
 
