@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * my task
+ * task
  */
 int main(void)
 {
