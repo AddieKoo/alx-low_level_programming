@@ -4,13 +4,13 @@
 #include <stdio.h>
 
 /**
- * task
+ * my task
  */
 int main(void)
 {
 int num;
 srand(time(0));
 num = rand();
-printf("%d\n", num);
+printf("%i\n", num);
 return (0);
 }
