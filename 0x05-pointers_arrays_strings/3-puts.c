@@ -14,5 +14,5 @@ for (m = 0; c[m]; m++)
 {
 _putchar (c[m]);
 }
-_puchar('\n');
+_putchar('\n');
 }
