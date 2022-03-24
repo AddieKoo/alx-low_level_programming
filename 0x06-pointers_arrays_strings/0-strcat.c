@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two things
+ * _strcat - concatenates two strings
  * @dest: a pointer to a character that will be updated
  * @src: a pointer to a character that will be updated
  * Return: dest
