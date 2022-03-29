@@ -1,5 +1,5 @@
 #include "main.h"
-#inclde "stddef.h"
+#include "stddef.h"
 /**
  * _strstr - locates a substring
  * @haystack: string to be checked
@@ -30,7 +30,6 @@ j++;
 }
 if (flag)
 break;
-}
 }
 if (flag)
 return (haystack + i);
