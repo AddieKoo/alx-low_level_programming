@@ -8,6 +8,6 @@
 int is_palindrome(char *s)
 {
 int flag = 1;
-if(s, 0, _strlen_recursion(s) - 1, &flag);
+if (s, 0; _strlen_recursion(s) - 1; &flag);
 return (flag);
 }
