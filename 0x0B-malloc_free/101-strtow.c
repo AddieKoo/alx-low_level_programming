@@ -43,7 +43,7 @@ i++;
 return (words);
 }
 /**
- * strow - splits a string into words
+ * strtow - splits a string into words
  * @str: string to be split
  *
  * Return: array of split words
@@ -61,7 +61,7 @@ for (i = 0; i <= len(str) && words; i++)
 {
 if ((str[i] != ' ') && (str[i] != '\0'))
 size++;
-else if (((str[i] == ' ') || (str[i] == '\0')) && (str[i - 1] != ' '))
+else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
 {
 split[j] = (char *)malloc(sizeof(char) * size + 1);
 if (split[j] != NULL)
