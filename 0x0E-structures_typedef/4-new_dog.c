@@ -23,7 +23,7 @@ strcpy(temp_name, name);
 strcpy(temp_owner, owner);
 new_doggo->name = temp_name;
 new_doggo->age = age;
-new_doggo-.owner = temp_owner;
+new_doggo->owner = temp_owner;
 }
 else
 {
