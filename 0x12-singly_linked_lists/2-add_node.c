@@ -8,13 +8,13 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-list_t *new_code;
+list_t *new_node;
 new_node = malloc(sizeof(list_t));
-if (new_mode != NULL)
+if (new_node != NULL)
 {
 new_node->str = strdup(str);
 new_node->len = _strlen(str);
-new_mode->next = *head;
+new_node->next = *head;
 }
 else
 return (NULL);
