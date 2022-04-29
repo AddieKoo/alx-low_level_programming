@@ -47,7 +47,7 @@ exit(98);
 void print_magic(unsigned char *e_ident)
 {
 int index;
-printf(" Magic:  ")
+printf(" Magic:  ");
 for (index = 0; index < EI_NIDENT; index++)
 {
 printf("%02x", e_ident[index]);
@@ -61,7 +61,7 @@ printf(" ");
  * print_class - prints the class of an ELF header
  * @e_ident: a pointer to an array containing the ELF class
  */
-void print_class(unisgned char *e_ident)
+void print_class(unsigned char *e_ident)
 {
 printf("  Class:                      ");
 switch (e_ident[EI_CLASS])
@@ -83,7 +83,7 @@ printf("<unknown: %x>\n", e_ident[EI_CLASS]);
  * print_data - prints the data of an elf header
  * @e_ident: a pointer to an array containing the ELF class
  */
-void print_data(unisgned char *e_ident)
+void print_data(unsigned char *e_ident)
 {
 printf("  Data:                      ");
 switch (e_ident[EI_DATA])
@@ -180,7 +180,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident)
 {
 if (e_ident[EI_DATA] == ELFDATA2MSB)
 e_type >>= 8;
-printf(" Type:                      ")
+printf(" Type:                      ");
 switch (e_type)
 {
 case ET_NONE:
