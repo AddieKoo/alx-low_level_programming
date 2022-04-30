@@ -219,7 +219,7 @@ e_entry = (e_entry << 16) | (e_entry >> 16);
 if (e_ident[EI_CLASS] == ELFCLASS32)
 printf("%#x\n", (unsigned int)e_entry);
 else
-printf("%#]x\n", e_entry);
+printf("%#1lx\n", e_entry);
 }
 /**
  * close_elf - closes an elf file
